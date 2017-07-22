@@ -1,0 +1,28 @@
+#!/bin/bash
+
+#PBS -N A1_Combustion_0721_01
+#PBS -e A1_Combustion_0721_01
+#PBS -o A1_Combustion_0721_01
+#PBS -l nodes=1:ppn=24 
+#PBS -V 
+
+PBS_O_WORKDIR='/home/xyhuang/OpenSMOKE_Droplet/exe' 
+PBS_O_IODIR='/home/xyhuang/OpenSMOKE_Droplet/exe/examples/test/A1_Combustion_0721_01'
+export PBS_O_WORKDIR 
+export PBS_O_IODIR
+### --------------------------------------- 
+### BEGINNING OF EXECUTION 
+### --------------------------------------- 
+
+echo The master node of this job is `hostname` 
+echo The working directory is `echo $PBS_O_WORKDIR` 
+echo This job runs on the following nodes: 
+echo `cat $PBS_NODEFILE` 
+
+### end of information preamble 
+
+cd $PBS_O_IODIR
+
+$PBS_O_WORKDIR/OpenSMOKEpp_MicrogravityDroplet.sh --input $PBS_O_IODIR/input.dic > $PBS_O_IODIR/log.$PBS_JOBID
+
+echo "Running Intel-15 MVAPICH linked bounce with: $cmd in directory "`pwd`

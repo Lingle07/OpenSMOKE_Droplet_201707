@@ -1,0 +1,5 @@
+The master node of this job is `hostname`
+The working directory is `echo /home/xyhuang/OpenSMOKE_Droplet/exe/`
+This job runs on the following nodes:
+`cat /var/spool/torque/aux//202159.certainty-fe.stanford.edu`
+Running Intel-15 MVAPICH linked bounce with: ./OpenSMOKEpp_MicrogravityDroplet.sh --input ./test_simulation/input.A1.dic in directory /home/xyhuang/OpenSMOKE_Droplet/exe

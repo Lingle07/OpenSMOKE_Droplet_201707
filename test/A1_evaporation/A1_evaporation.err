@@ -1,0 +1,1 @@
+/var/spool/torque/mom_priv/jobs/202346.certainty-fe.stanford.edu.SC: line 26: 21528 Segmentation fault      $PBS_O_WORKDIR/OpenSMOKEpp_MicrogravityDroplet.sh --input $PBS_O_IODIR/input.dic > $PBS_O_IODIR/log.$PBS_JOBID

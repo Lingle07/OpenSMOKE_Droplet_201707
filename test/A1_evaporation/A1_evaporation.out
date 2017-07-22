@@ -1,0 +1,5 @@
+The master node of this job is compute-136-3.local
+The working directory is /home/xyhuang/OpenSMOKE_Droplet/exe
+This job runs on the following nodes:
+compute-136-3 compute-136-3 compute-136-3 compute-136-3 compute-136-3 compute-136-3 compute-136-3 compute-136-3 compute-136-3 compute-136-3 compute-136-3 compute-136-3 compute-136-3 compute-136-3 compute-136-3 compute-136-3 compute-136-3 compute-136-3 compute-136-3 compute-136-3 compute-136-3 compute-136-3 compute-136-3 compute-136-3
+Running Intel-15 MVAPICH linked bounce with:  in directory /home/xyhuang/OpenSMOKE_Droplet/exe/examples/test/A1_evaporation

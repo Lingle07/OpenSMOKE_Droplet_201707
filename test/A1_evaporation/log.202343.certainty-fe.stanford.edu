@@ -1,0 +1,155 @@
+-----------------------------------------------------------------------------
+
+          ___                   ____  __  __  ___  _  _______                 
+         / _ \ _ __   ___ _ __ / ___||  \/  |/ _ \| |/ / ____| _     _        
+        | | | | '_ \ / _ \ '_ \\___ \| |\/| | | | | ' /|  _| _| |_ _| |_      
+        | |_| | |_) |  __/ | | |___) | |  | | |_| | . \| |__|_   _|_   _|     
+         \___/| .__/ \___|_| |_|____/|_|  |_|\___/|_|\_\_____||_|   |_|       
+              |_|                                                             
+
+
+           Department of Chemistry, Materials and Chemical Engineering        
+                              Politecnico di Milano                           
+                         http://www.opensmoke.polimi.it/                      
+                      http://creckmodeling.chem.polimi.it/                    
+
+                         OpenSMOKE_MicrogravityDroplet
+                                Version: 0.5.0
+                Author: Alberto Cuoci (alberto.cuoci@polimi.it)
+                   Compilation date: Jul  7 2017 at 15:05:37
+
+-----------------------------------------------------------------------------
+
+                                  WARNING                                    
+   This version of OpenSMOKE++ Suite can be used for educational purposes    
+              only and cannot be distributed to third parties.               
+       The software is and remains the sole property of Alberto Cuoci.       
+      Whenever the OpenSMOKE++ Suite is used to produce any publication,     
+       a detailed reference to the OpenSMOKE++ code should be reported       
+                            (see User's Guide).                              
+    Use for commercial purposes is not permitted. For any commercial issue   
+         please contact Alberto Cuoci (email: alberto.cuoci@polimi.it)       
+-----------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------
+
+                            LIMITED WARRANTY                                 
+     This software is provided "as is" and without warranties as to        
+  performance of merchantability or any other warranties whether expressed   
+    or implied. Because of the various hardware and software environments    
+   into which this library may be installed, no warranty of fitness for a    
+   particular purpose is offered. The user must assume the entire risk of    
+                          using  the library.                                
+-----------------------------------------------------------------------------
+
+ * Reading thermodynamic coefficients of species from XML file...
+ * Reading kinetic parameters of reactions...
+ * Reading kinetic parameters of third body reactions...
+ * Reading kinetic parameters of pressure-dependent reactions...
+ * Reading kinetic parameters of additional reactions...
+ * Building stoichiometry...
+   non-zero stoichiometric coefficients: 0 /0 (-nan%)
+ * Building reaction orders...
+   non-zero reaction-order coefficients: 0 /0 (-nan%)
+
+----------------------------------------------------------------------------
+ Kinetic Mechanism Summary
+----------------------------------------------------------------------------
+ Total number of species:        8
+ Total number of reactions:      0
+   Reversible reactions:         0 (0.000000e+00%)
+    * by thermodynamics:         0 (0.000000e+00%)
+    * by Arrhenius' law:         0 (0.000000e+00%)
+   Pressure dependent reactions: 0 (0.000000e+00%)
+    * fall-off reactions:        0 (0.000000e+00%)
+      ** lindemann form:         0 (0.000000e+00%)
+      ** troe form:              0 (0.000000e+00%)
+      ** sri form:               0 (0.000000e+00%)
+    * cabr reactions:            0 (0.000000e+00%)
+   Chebyshev reactions:          0 (0.000000e+00%)
+   Pressure-Log reactions:       0 (0.000000e+00%)
+   Fit1 reactions:               0 (0.000000e+00%)
+   Janev-Langer reactions:       0 (0.000000e+00%)
+   Landau-Teller reactions:      0 (0.000000e+00%)
+
+----------------------------------------------------------------------------
+ Reversible reactions (by thermodynamics)    0
+----------------------------------------------------------------------------
+ Reactions without change of moles:        0 (0.000000e+00%)
+ Reactions with change of moles (+1):      0 (0.000000e+00%)
+ Reactions with change of moles (-1):      0 (0.000000e+00%)
+ Reactions with change of moles (other):   0 (0.000000e+00%)
+
+ * Reading transport properties from XML file...
+Time to read XML file: 8.490700e-04
+ * Allocating memory for liquid phase...
+   Estimated amount of required RAM: 5.108643e-03 Mb
+ * Allocating memory for gas phase...
+   Estimated amount of required RAM: 2.685547e-01 Mb
+ * Droplet radius:     2.500000e-02 mm
+ * Air radius:         2.109353e+00 mm
+ * Ratio Air/Droplet : 8.437414e+01
+ * Least volatile species is NC12H26
+Initial conditions set!
+Initialization phase 
+ * Differential/Algebraic equations...
+ * Min/Max constraints...
+ * Rel/Abs tolerances...
+ * Liquid properties...
+ * Gas properties...
+ * Interface properties...
+ * Radiative heat transfer...
+ * Nonlinear system setup...
+ * Storage of old values...
+
+============================================================================
+ Non linear system solution                                                        
+  * Algebraic equations:        307
+  * Total number of points:     280
+     - Liquid grid points:      30
+     - Gas grid points:         250
+  * Number of gas species:      8
+  * Number of liquid species:   2
+============================================================================
+
+Dense NLS solution (OpenSMOKE++)...
+1       0.000000e+000.050000 300.000    299.700    2300.000   0.0000     
+NonLinearSolver<Kernel>: number of constraints violated in Newton's step = 2
+NonLinearSolver<Kernel>: number of constraints violated in Newton's step = 5
+11      0.0000e+00  0.0500   300.000    291.186    2300.000   0.0000     
+NonLinearSolver<Kernel>: number of constraints violated in Newton's step = 3
+NonLinearSolver<Kernel>: number of constraints violated in Newton's step = 3
+NonLinearSolver<Kernel>: number of constraints violated in Newton's step = 4
+21      0.0000e+00  0.0500   300.000    299.899    2300.000   0.0000     
+NonLinearSolver<Kernel>: number of constraints violated in Newton's step = 5
+NonLinearSolver<Kernel>: number of constraints violated in Newton's step = 4
+31      0.0000e+00  0.0500   300.000    299.983    2300.000   0.0000     
+NonLinearSolver<Kernel>: number of constraints violated in Newton's step = 4
+NonLinearSolver<Kernel>: number of constraints violated in Newton's step = 4
+NonLinearSolver<Kernel>: number of constraints violated in Newton's step = 4
+41      0.0000e+00  0.0500   300.000    303.426    2300.000   0.0000     
+NonLinearSolver<Kernel>: number of constraints violated in Newton's step = 5
+NonLinearSolver<Kernel>: number of constraints violated in Newton's step = 4
+51      0.0000e+00  0.0500   300.000    303.127    2300.000   0.0000     
+NonLinearSolver<Kernel>: number of constraints violated in Newton's step = 5
+NonLinearSolver<Kernel>: number of constraints violated in Newton's step = 5
+61      0.0000e+00  0.0500   300.000    302.908    2300.000   0.0000     
+NonLinearSolver<Kernel>: number of constraints violated in Newton's step = 6
+NonLinearSolver<Kernel>: number of constraints violated in Newton's step = 4
+NonLinearSolver<Kernel>: number of constraints violated in Newton's step = 4
+71      0.0000e+00  0.0500   300.000    301.570    2300.000   0.0000     
+NonLinearSolver<Kernel>: number of constraints violated in Newton's step = 4
+NonLinearSolver<Kernel>: number of constraints violated in Newton's step = 4
+81      0.0000e+00  0.0500   300.000    301.630    2300.000   0.0000     
+NonLinearSolver<Kernel>: number of constraints violated in Newton's step = 5
+NonLinearSolver<Kernel>: number of constraints violated in Newton's step = 4
+NonLinearSolver<Kernel>: number of constraints violated in Newton's step = 5
+91      0.0000e+00  0.0500   300.000    300.481    2300.000   0.0000     
+NonLinearSolver<Kernel>: number of constraints violated in Newton's step = 4
+NonLinearSolver<Kernel>: number of constraints violated in Newton's step = 6
+NonLinearSolver<Kernel>: number of constraints violated in Newton's step = 5
+101     0.0000e+00  0.0500   300.000    301.595    2300.000   0.0000     
+NonLinearSolver<Kernel>: number of constraints violated in Newton's step = 5
+NonLinearSolver<Kernel>: number of constraints violated in Newton's step = 4
+NonLinearSolver<Kernel>: number of constraints violated in Newton's step = 7
+111     0.0000e+00  0.0500   300.000    299.633    2300.000   0.0000     
